@@ -1,0 +1,19 @@
+/* 
+  LocalizedStrings.strings
+  AHHelpPopoverExample
+
+  Created by Eldon on 6/12/15.
+  Copyright (c) 2015 Eldon Ahrold. All rights reserved.
+*/
+
+/* No comment provided by engineer. */
+"No help available" = "No help available";
+
+"locFileExampleTitle" = "How to use AHHelpPopoverButton";
+"locFileExampleURL" = "https://github.com/eahrold/AHHelpPopover";
+
+"locFileExample" = "This is an example of a help message defined in the localized strings file.\n\nTo make this work set the class of the button to AHHelpPopoverButton in Interface Builder and set the button's identifier to a unique key. Then add that identifier (key) and correlated help text to your LocalizedStrings.strings file.\n\n To include a title simply append the key with the suffix \"Title\" in your localized string file, and define what the title should be.\n\nTo include a url do the same, but suffix with \"URL\".\n\nFor an example see the LocalizedStrings.strings file inside this project.";
+
+"loremIpsum" = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.";
+
+"attributedStringMessage" = "This is an example of creating a popover with an attributed string.\n\n The button is an NSButton with it's IBAction action set as you would with any button. Then when the action is called you simply create an AHHelpPopover object and set the attributedHelpText property. It's also been centered using the textAlignment property of the AHHelpPopover object." ;
