@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE7EF2321B3325E0002037B1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE7EF2301B3325E0002037B1 /* Localizable.strings */; };
+		BE7EF2331B3325E0002037B1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE7EF2301B3325E0002037B1 /* Localizable.strings */; };
 		BE8AD5521B2B8F1C00488894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8AD5511B2B8F1C00488894 /* AppDelegate.m */; };
 		BE8AD5541B2B8F1C00488894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8AD5531B2B8F1C00488894 /* main.m */; };
 		BE8AD5561B2B8F1C00488894 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8AD5551B2B8F1C00488894 /* Images.xcassets */; };
@@ -14,8 +16,8 @@
 		BE8AD5651B2B8F1C00488894 /* AHHelpPopoverExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8AD5641B2B8F1C00488894 /* AHHelpPopoverExampleTests.m */; };
 		BE8AD5701B2B8F6D00488894 /* AHHelpPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8AD56F1B2B8F6D00488894 /* AHHelpPopover.m */; };
 		BE8AD5711B2B8F6D00488894 /* AHHelpPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8AD56F1B2B8F6D00488894 /* AHHelpPopover.m */; };
-		BE8AD5761B2BAAAA00488894 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE8AD5791B2BAAAA00488894 /* Localizable.strings */; };
-		BE8AD5771B2BAAAA00488894 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE8AD5791B2BAAAA00488894 /* Localizable.strings */; };
+		BE8AD5761B2BAAAA00488894 /* LocalizableHelpPopover.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE8AD5791B2BAAAA00488894 /* LocalizableHelpPopover.strings */; };
+		BE8AD5771B2BAAAA00488894 /* LocalizableHelpPopover.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE8AD5791B2BAAAA00488894 /* LocalizableHelpPopover.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE7EF2311B3325E0002037B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BE8AD54B1B2B8F1C00488894 /* AHHelpPopoverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHHelpPopoverExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8AD54F1B2B8F1C00488894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE8AD5501B2B8F1C00488894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,7 +44,7 @@
 		BE8AD5641B2B8F1C00488894 /* AHHelpPopoverExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHHelpPopoverExampleTests.m; sourceTree = "<group>"; };
 		BE8AD56E1B2B8F6D00488894 /* AHHelpPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AHHelpPopover.h; path = AHHelpPopover/AHHelpPopover.h; sourceTree = SOURCE_ROOT; };
 		BE8AD56F1B2B8F6D00488894 /* AHHelpPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AHHelpPopover.m; path = AHHelpPopover/AHHelpPopover.m; sourceTree = SOURCE_ROOT; };
-		BE8AD5781B2BAAAA00488894 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BE8AD5781B2BAAAA00488894 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableHelpPopover.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +100,8 @@
 		BE8AD54E1B2B8F1C00488894 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE8AD5791B2BAAAA00488894 /* Localizable.strings */,
+				BE8AD5791B2BAAAA00488894 /* LocalizableHelpPopover.strings */,
+				BE7EF2301B3325E0002037B1 /* Localizable.strings */,
 				BE8AD54F1B2B8F1C00488894 /* Info.plist */,
 				BE8AD5531B2B8F1C00488894 /* main.m */,
 			);
@@ -202,7 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE8AD5561B2B8F1C00488894 /* Images.xcassets in Resources */,
-				BE8AD5761B2BAAAA00488894 /* Localizable.strings in Resources */,
+				BE7EF2321B3325E0002037B1 /* Localizable.strings in Resources */,
+				BE8AD5761B2BAAAA00488894 /* LocalizableHelpPopover.strings in Resources */,
 				BE8AD5591B2B8F1C00488894 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +216,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE8AD5771B2BAAAA00488894 /* Localizable.strings in Resources */,
+				BE8AD5771B2BAAAA00488894 /* LocalizableHelpPopover.strings in Resources */,
+				BE7EF2331B3325E0002037B1 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +254,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		BE7EF2301B3325E0002037B1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7EF2311B3325E0002037B1 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		BE8AD5571B2B8F1C00488894 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -256,12 +270,12 @@
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		BE8AD5791B2BAAAA00488894 /* Localizable.strings */ = {
+		BE8AD5791B2BAAAA00488894 /* LocalizableHelpPopover.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BE8AD5781B2BAAAA00488894 /* en */,
 			);
-			name = Localizable.strings;
+			name = LocalizableHelpPopover.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

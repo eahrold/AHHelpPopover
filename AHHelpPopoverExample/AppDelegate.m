@@ -54,7 +54,7 @@
 
     AHHelpPopover *popover = [[AHHelpPopover alloc] initWithSender:sender];
     popover.textAlignment = NSCenterTextAlignment;
-    
+
     NSString *helpText = NSLocalizedString(@"attributedStringMessage", nil);
 
     NSFont *defaultFont = [NSFont fontWithName:@"Verdana" size:24];

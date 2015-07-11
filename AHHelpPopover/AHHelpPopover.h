@@ -132,6 +132,8 @@
  *  Help text to apply.
  */
 @property (copy, nonatomic) NSString *helpText;
+- (void)helpTextWithFormat:(NSString *)format, ... NS_FORMAT_FUNCTION(1, 2);
+
 
 /**
  *  Title for the help, shown in bold. (optional)

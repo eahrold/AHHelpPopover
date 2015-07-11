@@ -29,16 +29,18 @@ You can also set the attributedHelpText property (NSAttributedString), letting y
 See [AHHelpPopover.h](AHHelpPopover/AHHelpPopover.h) for full usage.
 
 ##AHHelpPopoverButton
-This makes it even easier to display help. Simply add a button in your xib, set the class to AHHelpPopover, and set the button's identifier. Then add a corresponding key and entry to the project's Localizable.strings 
+This makes it even easier to display help. Simply add a button in your xib, set the class to AHHelpPopover, and set the button's identifier. Then create a strings file named **LocalizableHelpPopover.strings** and set the button's identifier as the key.
 ```
 /* 
- * LocalizedStrings.strings
+ * LocalizableHelpPopover.strings
  */
  
-"myHelpButtonIdentifier" = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.";
+"myHelpButtonIdentifier" = "This is the main informational body of this help popover, that was easy!";
 
-"myHelpButtonIdentifierTitle" = "Finding Lorem ipsum"
-"myHelpButtonIdentifierURL" = "http://www.lipsum.com"
+"myHelpButtonIdentifierTitle" = "Help Help"
+"myHelpButtonIdentifierURL" = "http://more.info.com"
+
+
 ```
 
 Including a key-message(s) with "Title" and/or "URL" as the suffix will add those elements to the popover.

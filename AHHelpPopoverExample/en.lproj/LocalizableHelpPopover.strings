@@ -1,0 +1,20 @@
+/* 
+  LocalizableHelpPopover.strings
+  AHHelpPopoverExample
+
+  Created by Eldon on 6/12/15.
+  Copyright (c) 2015 Eldon Ahrold. All rights reserved.
+*/
+
+/* Use this file as a template for the localizable strings of your buttons. */
+
+"No help available" = "No help available";
+
+// The default popover body, the button identifier should be set to this key.
+"locFileExample" = "This is an example of a help message defined in the localized strings file.\n\nTo make this work set the class of the button to AHHelpPopoverButton in Interface Builder and set the button's identifier to a unique key. Then add that identifier (key) and correlated help text to your LocalizableHelpPopover.strings file.\n\n To include a title simply append the key with the suffix \"Title\" in your localized string file, and define what the title should be.\n\nTo include a url do the same, but suffix with \"URL\".\n\nFor an example see the LocalizedStrings.strings file inside this project.";
+
+// The title for the popover. button.identifier + "Title"
+"locFileExampleTitle" = "How to use AHHelpPopoverButton";
+
+// A link provided at the bottom of the popover. button.identifier + "URL"
+"locFileExampleURL" = "https://github.com/eahrold/AHHelpPopover";
